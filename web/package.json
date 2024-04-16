@@ -1,0 +1,46 @@
+{
+  "name": "everything",
+  "version": "0.0.1",
+  "repository": "https://github.com/LeviLovie/everything",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write src",
+    "compile": "tsc --jsx react --noEmit -p .",
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build"
+  },
+  "dependencies": {
+    "@emotion/core": "11.0.0",
+    "@emotion/react": "11.11.1",
+    "@emotion/styled": "11.11.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.21.0",
+    "sass": "^1.75.0"
+  },
+  "devDependencies": {
+    "@emotion/babel-preset-css-prop": "11.11.0",
+    "@types/lodash": "^4.17.0",
+    "@types/node": "20.10.4",
+    "@types/react": "18.2.45",
+    "@types/react-dom": "18.2.18",
+    "lodash": "^4.17.21",
+    "prettier": "3.1.1",
+    "ts-node": "10.9.2",
+    "typescript": "5.3.3",
+    "vite": "5.0.10",
+    "vite-plugin-checker": "0.6.2",
+    "vite-plugin-svgr": "4.2.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead"
+    ],
+    "development": [
+      "last 1 chrome version"
+    ]
+  }
+}
